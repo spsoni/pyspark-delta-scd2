@@ -6,6 +6,8 @@ This project utilizes `faker-pyspark` to generate random schema and dataframes t
 
 Using these snapshots to process and apply SCD2 pattern into delta table as the destination. 
 
+Source of Inspiration for SCD2 pattern: https://aws-blogs-artifacts-public.s3.amazonaws.com/artifacts/BDB-2547/glue/scd-deltalake-employee-etl-job.py 
+
 ## Installation
 
 Install with pip:
