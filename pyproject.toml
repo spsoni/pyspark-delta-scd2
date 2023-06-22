@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyspark-delta-scd2"
-version = "0.4.0"
+version = "0.4.1"
 description = "This project utilizes faker-pyspark to generate random schema and dataframes to mimic data table snapshots. Using these snapshots to process and apply SCD2 pattern into delta table as the destination."
 authors = ["Sury Soni <github@suryasoni.info>"]
 license = "MIT"
@@ -15,6 +15,7 @@ python = "^3.8.1"
 
 [tool.poetry.group.dev.dependencies]
 delta-spark = "^2.4.0"
+faker = "^18.11.1"
 faker-pyspark = "^0.7.0"
 
 [build-system]
