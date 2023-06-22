@@ -1,6 +1,7 @@
 # Demo PySpark Delta Table SCD2 implementation
 
 [![Python package](https://github.com/spsoni/pyspark-delta-scd2/actions/workflows/python-package.yml/badge.svg)](https://github.com/spsoni/pyspark-delta-scd2/actions/workflows/python-package.yml)
+[![CodeQL](https://github.com/spsoni/pyspark-delta-scd2/actions/workflows/codeql.yml/badge.svg)](https://github.com/spsoni/pyspark-delta-scd2/actions/workflows/codeql.yml)
 
 This project utilizes `faker-pyspark` to generate random schema and dataframes to mimic data table snapshots.
 
