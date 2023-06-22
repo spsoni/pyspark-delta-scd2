@@ -16,33 +16,15 @@ importlib-metadata = ">=1.0.0"
 pyspark = ">=3.4.0,<3.5.0"
 
 [[package]]
-name = "faker"
-version = "18.11.1"
-description = "Faker is a Python package that generates fake data for you."
-optional = false
-python-versions = ">=3.7"
-files = [
-    {file = "Faker-18.11.1-py3-none-any.whl", hash = "sha256:02980fe15acd58861305568bae0a277680792a505a5a45a309d352f79c452dd1"},
-    {file = "Faker-18.11.1.tar.gz", hash = "sha256:df4ee36d058a6a96de9d5e645571ef8536946a0b62db841494f8a3bc3bcdc5af"},
-]
-
-[package.dependencies]
-python-dateutil = ">=2.4"
-
-[[package]]
 name = "faker-pyspark"
-version = "0.3.0"
+version = "0.7.0"
 description = "faker-pyspark is a PySpark DataFrame and Schema provider for the Faker python package"
 optional = false
 python-versions = ">=3.8.1,<4.0.0"
 files = [
-    {file = "faker_pyspark-0.3.0-py3-none-any.whl", hash = "sha256:a626017b7221ba9eca29f8dc4ce04f6407f36a566eb05c846a7ddb9aa7e23e94"},
-    {file = "faker_pyspark-0.3.0.tar.gz", hash = "sha256:56ec1d84d42117aa633b4da42a665668e842ef46971524ed750504c472b43170"},
+    {file = "faker_pyspark-0.7.0-py3-none-any.whl", hash = "sha256:27fc863853a49d70b58b3a911f8c46fc95876f7bc65ce6d71d5cac7ffad5ea01"},
+    {file = "faker_pyspark-0.7.0.tar.gz", hash = "sha256:1ecc3282cbb3bd4545e5134e1b448b619a4ccd23af211f72e945807ebb6d1f0a"},
 ]
-
-[package.dependencies]
-Faker = ">=18.11.1,<19.0.0"
-pyspark = ">=3.4.0,<4.0.0"
 
 [[package]]
 name = "importlib-metadata"
@@ -95,31 +77,6 @@ pandas-on-spark = ["numpy (>=1.15)", "pandas (>=1.0.5)", "pyarrow (>=1.0.0)"]
 sql = ["numpy (>=1.15)", "pandas (>=1.0.5)", "pyarrow (>=1.0.0)"]
 
 [[package]]
-name = "python-dateutil"
-version = "2.8.2"
-description = "Extensions to the standard Python datetime module"
-optional = false
-python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
-files = [
-    {file = "python-dateutil-2.8.2.tar.gz", hash = "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86"},
-    {file = "python_dateutil-2.8.2-py2.py3-none-any.whl", hash = "sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"},
-]
-
-[package.dependencies]
-six = ">=1.5"
-
-[[package]]
-name = "six"
-version = "1.16.0"
-description = "Python 2 and 3 compatibility utilities"
-optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
-files = [
-    {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
-    {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
-]
-
-[[package]]
 name = "zipp"
 version = "3.15.0"
 description = "Backport of pathlib-compatible object wrapper for zip files"
@@ -137,4 +94,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8.1"
-content-hash = "ff62ad69a85a91162e88ce8fca07ed3ac97b495bdd4b3fb96326cedca57839d5"
+content-hash = "85db17bb54fb147051f82cdedf43e44d0c4aa6904953a5258499a787909055d8"

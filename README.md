@@ -14,9 +14,13 @@ Source of Inspiration for SCD2 pattern: https://aws-blogs-artifacts-public.s3.am
 Install with pip:
 
 ``` bash
-pip install pyspark-delta-scd2
+pip install pyspark-delta-scd2 delta-spark faker-pyspark
 
 ```
+
+Please note, this package do not enforce version of delta-spark, PySpark and faker-pyspark.
+
+When you want to use this example in AWS Glue environment, enforced versions conflict with the target environment.
 
 ### Generate incremental updates to dataframe and apply scd2
 
